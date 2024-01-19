@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: none;
+}
+
+.box {
+  background-color: #ffffff;
+  background-image: linear-gradient();
+  border-radius: 10px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.8);
+  margin: auto auto;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box h2 {
+  margin: 0 0 30px 0;
+  padding: 0;
+  color: #6c8b06;
+  text-align: center;
+}
+
+.box .inputBox label {
+  color: #6c8b06;
+}
+
+.box .inputBox input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #000000;
+  color: #6c8b06;
+  font-size: 18px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  outline: none;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.box input[type="submit"], .box button[type="submit"], a.button {
+  font-family: sans-serif;
+  background: #1d4ed8;
+  font-size: 11px;
+  border: 1px solid;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  padding: 10px 20px;
+  letter-spacing: 2px;
+  outline: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 2px 15px 2px 2px;
+  display: inline-block;
+  
+  
+}
+#buttons{
+  display: flex;
+  justify-content: center;
+}
+
+.box input[type="submit"]:hover, .box button[type="submit"]:hover, a.button:hover {
+  opacity: 0.8;
+}
